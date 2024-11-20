@@ -1,0 +1,33 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.events {
+  margin-top: 20px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="color"] {
+  margin: 10px 0;
+  padding: 5px;
+}
